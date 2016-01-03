@@ -1,0 +1,221 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.head a.button{
+		margin-right: 0;
+	}
+	.head_title{
+		margin-top: 50px;
+	}
+	.registr{
+		margin-top: 117px;
+	}
+
+	.sect1_title{
+		width: 100%;
+	}
+	.descr_sect2{
+		width: 100%;
+	}
+	.center_sect2{
+		margin-left: 0;
+	}
+	.sect3_title{
+		margin-top: 0;
+	}
+	.descr_wrap_sect3{
+		width: 100%;
+	}
+	.sect3 .center_sect2{
+		margin-left: 0;
+	}
+	.sect4{
+		text-align: center;
+	}
+	.descr_wrap_sec4{
+		text-align: center;
+	}
+	.descr_wrap_sec4 p{
+		width: 100%;
+	}
+	.sect5_wrap{
+		padding-top: 0;
+	}
+	.sect5_wrap h2{
+		font-size: 35px;
+		line-height: 36px;
+		margin-top: 15px;
+	}
+	.sect5_wrap img{
+		margin-bottom: 0;
+	}
+	.sect5_buttons_wrap{
+		margin-top: 50px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.mifid_wrap{
+		display: none;
+	}
+	.top_line{
+		text-align: center;
+	}
+	img.logo{
+		padding: 0;
+	}
+	
+	
+	.head a.button{
+		float:none;
+		margin-top: 12px;
+	}
+	.click span.symb{
+		display: none;
+	}
+	.head_title{
+		margin-top: 10px;
+		margin-bottom: 35px;
+	}
+	.head_title h1{
+		font-size: 39px;
+		line-height: 40px;
+	}
+	.click{
+		text-align: center;
+		margin-right: 0;
+		margin-top: 20px;
+		padding: 0;
+	}
+	.prib{
+		text-align: center;
+		padding: 0;
+	}
+	.registr{
+		margin-top: 62px;
+	}
+	.green_wrap, .transp_wrap{
+		text-align: center;
+		margin-right: 0;
+	}
+	.sect1_title h2{
+		font-size: 37px;
+		margin: 0;
+	}
+	.sect1_title h2:after{
+		bottom: -10px;
+	}
+	.sect1_title p{
+		font-size: 21px;
+		line-height: 20px;
+	}
+	.descr_sect2{
+		margin-top: 0;
+		margin-bottom: 26px;
+	}
+	.sect3_title h2{
+		font-size: 36px;
+		line-height: 40px;
+	}
+	.sect4 img{
+		width: 100%;
+	}
+	.footer_wrap1, .footer_wrap{
+		width: 100%;
+		text-align: center;
+	}
+		
+
+
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.head_title h1{
+		font-size: 34px;
+		line-height: 32px;
+	}
+	.sect1_title{
+		text-align: center;
+	}
+	.sect1_title h2{
+		line-height: 30px;
+	}
+	.sect1_title h2::after{
+		bottom: -17px;
+		left: 50%;
+		transform:translate(-50%);
+	}
+	.sect5_buttons_wrap a{
+		padding: 9px 53px;
+		font-size: 22px;
+	}
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

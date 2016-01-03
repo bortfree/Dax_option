@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'opensanslight';
+    src: url('../fonts/opensanslight/opensans-light.eot');
+    src: url('../fonts/opensanslight/opensans-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanslight/opensans-light.woff') format('woff'),
+         url('../fonts/opensanslight/opensans-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensansregular';
+    src: url('../fonts/opensansregular/2211.eot');
+    src: url('../fonts/opensansregular/2211.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensansregular/2211.woff') format('woff'),
+         url('../fonts/opensansregular/2211.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'opensanssemibold';
+    src: url('../fonts/opensanssemibold/open-sans-semibold_allfont.ru.eot');
+    src: url('../fonts/opensanssemibold/open-sans-semibold_allfont.ru.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensanssemibold/open-sans-semibold_allfont.ru.woff') format('woff'),
+         url('../fonts/opensanssemibold/open-sans-semibold_allfont.ru.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
